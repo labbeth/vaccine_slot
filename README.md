@@ -42,6 +42,9 @@ Your mail app key could be retrieve at https://myaccount.google.com/security by 
 
 4. Edit the slot_notifier.bat file and replace the script path C:\your_path\vaccine_slot.py
 
-5. Open Windows "Task Scheduler" (Planificateur de tâches) and add the task associated to the .bat file
-6. Open 
-7. 
+5. Open Windows "Task Scheduler" (Planificateur de tâches) and create a new task:
+  * In "General" tab, add a name (whatever)
+  * In "Déclencheurs" tab, select "New" and choose the scheduling
+  * In "Actions" tab, select the previous .bat file
+
+You're done!
