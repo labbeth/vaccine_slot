@@ -38,7 +38,7 @@ conn.login('your_email@gmail.com', 'your app key')
 conn.sendmail('your_email@gmail.com', toAddress, 'Subject: Slots disponibles !\n\n%s\n\n%s' % (urlSite, slot_dispo))
 ```
 
-Your mail app key could be retrieve at https://myaccount.google.com/security by selecting "applications password" menu
+Your mail app key could be retrieved at https://myaccount.google.com/security by selecting "applications password" menu
 
 4. Edit the slot_notifier.bat file and replace the script path C:\your_path\vaccine_slot.py
 
