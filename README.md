@@ -18,7 +18,7 @@ pip install requests
 
 1. Go to the url of your target vaccine center and display network traces with a developer tool. Select the target "Motif de consultation", and retrieve the associated url starting with https://www.doctolib.fr/availabilities.json
 
-![image](https://github.com/labbeth/vaccine_slot/media/availabilities.png)
+![image](https://github.com/labbeth/vaccine_slot/blob/fba129ab02d0395d2f86fa8659073b48861c9aef/media/availabilites.png)
 
 2. Copy the vaccine_slot.py script in a given folder and edit the values retrieved from the previous step:
 
