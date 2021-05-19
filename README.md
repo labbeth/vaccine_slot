@@ -28,7 +28,7 @@ urlSite = 'public url of your vaccine center'
 visitMotiveId = 'value of visit_motive_ids' 
 agendaId = 'value of agenda_ids' 
 practiceId = 'value of practice_ids'
-daysLimit = 20 # choose the period you want to cover in [1;20]
+daysLimit = 10 # choose the period you want to cover in [1-20]
 ```
 
 2. Update the following lines with your personal data:
