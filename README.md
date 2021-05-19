@@ -50,3 +50,7 @@ Your mail app key could be retrieve at https://myaccount.google.com/security by 
 ![task](https://github.com/labbeth/vaccine_slot/blob/ad6e191bc917759f93148db99a200bf04aa74bf5/media/task.png)
 
 You're done!
+
+*Note 1: it might not work as it is through VPN*
+
+*Note 2 (juste in case): won't work if your computer is off ;)*
