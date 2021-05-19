@@ -10,7 +10,11 @@ agendaId = '429575-449554-417726-473602-473601-473600-417731-473604-471900-41082
 practiceId = '164684' # id du centre de vaccination
 daysLimit = 10
 
-getPage = requests.get('https://www.doctolib.fr/availabilities.json?start_date=%s&visit_motive_ids=%s&agenda_ids=%s&insurance_sector=public&practice_ids=%s&destroy_temporary=true&limit=%s' % (startDate, visitMotiveId, agendaId, practiceId, daysLimit))
+# Optional (might avoid 403)
+headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}
+
+
+getPage = requests.get('https://www.doctolib.fr/availabilities.json?start_date=%s&visit_motive_ids=%s&agenda_ids=%s&insurance_sector=public&practice_ids=%s&destroy_temporary=true&limit=%s' % (startDate, visitMotiveId, agendaId, practiceId, daysLimit), headers = headers)
 getPage.raise_for_status()
 
 calendar = bs4.BeautifulSoup(getPage.text, 'html.parser')
