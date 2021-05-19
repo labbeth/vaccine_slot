@@ -18,7 +18,7 @@ pip install requests
 
 1. Go to the url of your target vaccine center and display network traces with a developer tool. Select the target "Motif de consultation", and retrieve the associated url starting with https://www.doctolib.fr/availabilities.json
 
-![image](https://github.com/labbeth/vaccine_slot/blob/fba129ab02d0395d2f86fa8659073b48861c9aef/media/availabilites.png)
+![network](https://github.com/labbeth/vaccine_slot/blob/fba129ab02d0395d2f86fa8659073b48861c9aef/media/availabilites.png)
 
 2. Copy the vaccine_slot.py script in a given folder and edit the values retrieved from the previous step:
 
@@ -46,5 +46,7 @@ Your mail app key could be retrieve at https://myaccount.google.com/security by 
   * In "General" tab, add a name (whatever)
   * In "Déclencheurs" tab, select "New" and choose the scheduling
   * In "Actions" tab, select the previous .bat file
+
+![task](https://github.com/labbeth/vaccine_slot/blob/ad6e191bc917759f93148db99a200bf04aa74bf5/media/task.png)
 
 You're done!
