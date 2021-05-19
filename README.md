@@ -23,7 +23,7 @@ pip install requests
 2. Copy the vaccine_slot.py script in a given folder and edit the values retrieved from the previous step:
 
 ```python
-toAddress = ['your_email@gmail.com'] # Could be a non-gmail adress
+toAddress = ['the email adress you want to send the notification to'] # Could be a non-gmail adress
 urlSite = 'public url of your vaccine center'
 visitMotiveId = 'value of visit_motive_ids' 
 agendaId = 'value of agenda_ids' 
