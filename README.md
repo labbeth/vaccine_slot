@@ -1,6 +1,6 @@
 # Vaccine Slot Tracker
 
-This script aims at providing automatic email notifications when vaccine slots are available for a given vaccine center in Doctolib platform.
+This script aims at providing automatic email notifications when vaccine slots are available for a given vaccine center on Doctolib platform.
 
 ## Requirements
 - Python 3.6+
